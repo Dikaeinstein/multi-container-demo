@@ -4,10 +4,6 @@ services:
     image: themalikyusuf/webapp:v2
     ports:
     - "5000:3000"
-    volumes:
-    - ./src:/doc-test
-    command: >
-      /bin/bash -c 'npm install -g nodemon && nodemon server'
     depends_on:
     - mongo
     links:
