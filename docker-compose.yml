@@ -1,7 +1,7 @@
 version: '3'
 services:
   webapp:
-    image: themalikyusuf/webapp:v2
+    image: themalikyusuf/webapp:v3
     ports:
     - "5000:3000"
     depends_on:
